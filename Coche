@@ -1,0 +1,21 @@
+package coche;
+
+
+public class Vehiculo {
+
+  
+    public static void main(String[] args) {
+        Coche miCoche = new Coche ();
+        miCoche.Contadorpuertas();
+        System.out.println("mi carro tiene : " + miCoche.puertas+ " puertas");
+        
+    }
+    
+}
+class Coche {
+    public int puertas = 4;
+    
+    public void Contadorpuertas(){
+        this.puertas++;
+    }
+}
